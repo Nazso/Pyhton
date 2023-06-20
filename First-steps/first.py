@@ -29,3 +29,21 @@ print(b)
 print(type(b))
 print(c)
 print(type(c))
+
+aa, bb, cc = "elephant", "banana", "joke"
+
+print(aa)
+print(bb)
+print(cc)
+
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
