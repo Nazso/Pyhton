@@ -43,7 +43,18 @@ print(x)
 print(y)
 print(z)
 
-x = "Python "
-y = "is "
-z = "awesome"
-print(x + y + z)
+xx = "Python "
+yy = "is "
+zz = "awesome"
+print(xx + yy + zz)
+
+xy = 5
+yx = 10
+print(xy + yx)
+
+aaa = "more awesome"
+
+def myfunc():
+  print("Python is " + aaa + "!")
+
+myfunc()
