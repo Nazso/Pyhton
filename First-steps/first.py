@@ -1,70 +1,81 @@
-print('Hello world!')
+# print('Hello world!')
 
-if 5 > 2:
-    print("Five is greater than two!")
+# if 5 > 2:
+    # print("Five is greater than two!")
 
 #This is just a test of comment
 
-"""
-Multiline comment
-"""
+# """
+# Multiline comment
+# """
 
-x = 5
-y = 'Try to learn Python'
+# x = 5
+# y = 'Try to learn Python'
 
-print(x, y)
-print(type(x))
+# print(x, y)
+# print(type(x))
 
-x = "Öt"
-print(x)
-print(type(x))
+# x = "Öt"
+# print(x)
+# print(type(x))
 
-a = str(4)
-b = int(4)
-c = float(4)
+# a = str(4)
+# b = int(4)
+# c = float(4)
 
-print(a)
-print(type(a))
-print(b)
-print(type(b))
-print(c)
-print(type(c))
+# print(a)
+# print(type(a))
+# print(b)
+# print(type(b))
+# print(c)
+# print(type(c))
 
-aa, bb, cc = "elephant", "banana", "joke"
+# aa, bb, cc = "elephant", "banana", "joke"
 
-print(aa)
-print(bb)
-print(cc)
+# print(aa)
+# print(bb)
+# print(cc)
 
 
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-print(x)
-print(y)
-print(z)
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)
+# print(y)
+# print(z)
 
-xx = "Python "
-yy = "is "
-zz = "awesome"
-print(xx + yy + zz)
+# xx = "Python "
+# yy = "is "
+# zz = "awesome"
+# print(xx + yy + zz)
 
-xy = 5
-yx = 10
-print(xy + yx)
+# xy = 5
+# yx = 10
+# print(xy + yx)
 
-aaa = "more awesome"
+# aaa = "more awesome"
+
+# def myfunc():
+#   print("Python is " + aaa + "!")
+
+# myfunc()
+
+# xo = "awesome"
+
+# def myfunc():
+#   xo = "fantastic"
+#   print("Python is " + xo)
+
+# myfunc()
+
+# print("Python is " + xo)
+
+x = 'no OK'
 
 def myfunc():
-  print("Python is " + aaa + "!")
+  global x
+  x = "fantastic"
 
 myfunc()
 
-xo = "awesome"
+print("Python is " + x)
 
-def myfunc():
-  xo = "fantastic"
-  print("Python is " + xo)
-
-myfunc()
-
-print("Python is " + xo)
