@@ -79,6 +79,8 @@ myfunc()
 
 print("Python is " + x)
 
+print('-------------------------------------')
+
 x = str("Hello World")
 print(type(x))
 
@@ -120,3 +122,7 @@ print(type(x))
 
 x = memoryview(bytes(5))
 print(type(x))
+
+print('-------------------------------')
+
+
