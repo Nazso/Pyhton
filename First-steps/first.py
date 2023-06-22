@@ -58,3 +58,13 @@ def myfunc():
   print("Python is " + aaa + "!")
 
 myfunc()
+
+xo = "awesome"
+
+def myfunc():
+  xo = "fantastic"
+  print("Python is " + xo)
+
+myfunc()
+
+print("Python is " + xo)
