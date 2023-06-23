@@ -156,16 +156,24 @@ beta = "My name is Ståle"
 
 print(txtb.format(name, old, born).capitalize())
 print(txtb.format(name, old, born).casefold())
+
 print(alpha.center(30))
 print(alpha.center(30, "T"))
+
 print(txtb.format(name, old, born).count('in'))
 print(txtb.format(name, old, born).count('in', 15, 35))
+
 print(beta.encode())
 print(beta.encode(encoding="ascii",errors="backslashreplace"))
 print(beta.encode(encoding="ascii",errors="ignore"))
 print(beta.encode(encoding="ascii",errors="namereplace"))
 print(beta.encode(encoding="ascii",errors="replace"))
 print(beta.encode(encoding="ascii",errors="xmlcharrefreplace"))
+
+print(txtb.format(name, old, born).endswith('.'))
+print(txtb.format(name, old, born).endswith('g'))
+print(txtb.format(name, old, born).endswith('g', 2, 10))
+print(txtb.format(name, old, born).endswith('e', 2, 7))
 
 a = "hello"
 b = "welcome to the jungle"
