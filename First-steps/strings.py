@@ -64,8 +64,53 @@ b = "Hello, World!"
 print(b[-10:-2])
 
 print('-----------------------')
+
+aaa = "Practice Python with happy face!"
+aab = "      Practice Python with happy face!"
+print(aaa.upper())
+print(aaa[12:18].upper())
+print(aaa.lower())
+print(aab.strip())
+print(aaa.replace("P", "Q"))
+print(aaa.split(" "))
+abb = aaa.split(" ")
+print(abb)
+ff = abb[1]
+gg = abb[2].upper().replace("H", "C")
+print(ff)
+print(gg)
+
 print('-----------------------')
+
+aba = "Hello"
+bba = "World"
+cca = aba + bba
+print(cca)
+print(aba + bba + '!')
+
+abba = "Hello"
+bab = "World"
+caa = abba + " " + bab + "!"
+print(caa)
+
 print('-----------------------')
+
+age = 36
+#txt = "My name is John, I am " + age #Ez így nem működhet!!!
+# print(txt)
+
+#A helyes megoldás: format() metódus alkalmazása!!!
+age = 36
+old = 127
+txt = "My name is John, and I am {} years old"
+
+name = "Jakab"
+txta = "My name is {}, and I am {} years old"
+
+print(txt.format(age))
+print(txta.format(name, old))
+print(txta.format(old, name))
+
 print('-----------------------')
 print('-----------------------')
 print('-----------------------')
