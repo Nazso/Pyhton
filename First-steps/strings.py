@@ -44,3 +44,8 @@ if "expensive" not in txt:
   print("No, 'expensive' is NOT present.")
 
 print('-----------------------')
+
+b = "Hello, World!"
+print(b[1:5])
+
+print('-----------------------')
