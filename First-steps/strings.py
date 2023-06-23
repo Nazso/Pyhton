@@ -150,4 +150,29 @@ print(txti)
 print(txtj)
 
 print('-----------------------')
+
+alpha = "alpha"
+beta = "My name is Ståle"
+
+print(txtb.format(name, old, born).capitalize())
+print(txtb.format(name, old, born).casefold())
+print(alpha.center(30))
+print(alpha.center(30, "T"))
+print(txtb.format(name, old, born).count('in'))
+print(txtb.format(name, old, born).count('in', 15, 35))
+print(beta.encode())
+print(beta.encode(encoding="ascii",errors="backslashreplace"))
+print(beta.encode(encoding="ascii",errors="ignore"))
+print(beta.encode(encoding="ascii",errors="namereplace"))
+print(beta.encode(encoding="ascii",errors="replace"))
+print(beta.encode(encoding="ascii",errors="xmlcharrefreplace"))
+
+a = "hello"
+b = "welcome to the jungle"
+c = "10.000"
+
+print(a.zfill(10))
+print(b.zfill(10))
+print(c.zfill(10))
+
 print('-----------------------')
