@@ -107,14 +107,25 @@ txt = "My name is John, and I am {} years old"
 name = "Jakab"
 txta = "My name is {}, and I am {} years old"
 
+born = 1526
+name = "Jakab"
+txtb = "My name is {0}, I was born in {2} and I am {1} years old. And I am terrible in Math..."
+
 print(txt.format(age))
 print(txta.format(name, old))
 print(txta.format(old, name))
+print(txtb.format(name, old, born))
 
 quantity = 3
 itemno = 567
 price = 49.95
 myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder.format(quantity, itemno, price))
 
 print('-----------------------')
