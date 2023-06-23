@@ -129,5 +129,25 @@ myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder.format(quantity, itemno, price))
 
 print('-----------------------')
+
+txtc = "We are the so-called \"Vikings\" from the north."
+print(txtc)
+
+txtd = "We are\nthe so-called \"Vikings\" from the north."
+txte = "We are \rfrom the north."
+txtf = "We are\tthe so-called \"Vikings\" from the north."
+txtg = "We are\bthe so-called \"Vikings\" from the north."
+txth = "We are\fthe so-called \"Vikings\" from the north."
+txti = "\113\125\164\157\159" #\ooo, octal value
+txtj = "\x48\x65\x6c\x6c\x6f" #\xhh, Hex value
+
+print(txtd)
+print(txte)
+print(txtf)
+print(txtg)
+print(txth)
+print(txti)
+print(txtj)
+
 print('-----------------------')
 print('-----------------------')
