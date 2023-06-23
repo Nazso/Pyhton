@@ -152,6 +152,7 @@ print(txtj)
 print('-----------------------')
 
 alpha = "alpha"
+alphaOne = "/=alpha23"
 beta = "My name is Ståle"
 
 print(txtb.format(name, old, born).capitalize())
@@ -175,6 +176,15 @@ print(txtb.format(name, old, born).endswith('g'))
 print(txtb.format(name, old, born).endswith('g', 2, 10))
 print(txtb.format(name, old, born).endswith('e', 2, 7))
 
+print(txtb.format(name, old, born).rfind('in'))
+print(txtb.format(name, old, born).rindex('am'))
+
+
+print(alpha.isalnum())
+print(alphaOne.isalnum())
+print(alpha.isalpha())
+print(alphaOne.isalpha())
+
 a = "hello"
 b = "welcome to the jungle"
 c = "10.000"
@@ -183,4 +193,7 @@ print(a.zfill(10))
 print(b.zfill(10))
 print(c.zfill(10))
 
+print('-----------------------')
+print('-----------------------')
+print('-----------------------')
 print('-----------------------')
