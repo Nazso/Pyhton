@@ -227,7 +227,90 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 del thislist # clompletely list is deleted
 
+
+"""
+The clear() method empties the list.
+
+The list still remains, but it has no content.
+"""
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+
 print('-------------------------')
+
+"""
+Loops
+"""
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+
+print('-----------------')
+
+"""
+You can also loop through the list items by referring to their index number.
+
+Use the range() and len() functions to create a suitable iterable.
+"""
+
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+
 print('-------------------------')
+
+"""
+You can loop through the list items by using a while loop.
+
+Use the len() function to determine the length of the list, then start at 0 and loop your way through the list items by referring to their indexes.
+
+Remember to increase the index by 1 after each iteration.
+"""
+
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+print("------")
+
+"""
+List Comprehension offers the shortest syntax for looping through lists:
+"""
+
+thislist = ["apple", "banana", "cherry", "melone"]
+[print(x) for x in thislist]
+
+
 print('-------------------------')
+
+"""
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+Example:
+Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
+Without list comprehension you will have to write a for statement with a conditional test inside
+"""
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+
+
+#same list just one line of code:
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
 print('-------------------------')
