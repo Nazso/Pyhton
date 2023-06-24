@@ -310,7 +310,24 @@ print(newlist)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
 newlist = [x for x in fruits if "a" in x]
+newlistOne = [x for x in fruits if x != 'apple']
 
 print(newlist)
+print(newlistOne)
 
+print('-------------------------')
+
+#Iterable
+
+newlist = [x for x in range(10)]
+print(newlist)
+
+newlistTwo = [x for x in range(10) if x < 5]
+newlistThree = [x for x in range(10) if x > 5]
+print(newlistTwo)
+print(newlistThree)
+
+print('-------------------------')
+print('-------------------------')
+print('-------------------------')
 print('-------------------------')
