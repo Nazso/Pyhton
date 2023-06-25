@@ -356,4 +356,89 @@ thislist.sort(reverse = True)
 print(thislist)
 
 print('-------------------------')
+
+"""
+You can also customize your own function by using the keyword argument key = function.
+
+The function will return a number that will be used to sort the list (the lowest number first)
+Sort the list based on how close the number is to 50
+"""
+
+def myfunc(n):
+  return abs(n - 50)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfunc)
+print(thislist)
+
+print('-------------------------')
+
+"""
+By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters
+"""
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
+
+"""
+Luckily we can use built-in functions as key functions when sorting a list.
+
+So if you want a case-insensitive sort function, use str.lower as a key function
+Perform a case-insensitive sort of the list
+"""
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+print('-------------------------')
+
+"""
+What if you want to reverse the order of a list, regardless of the alphabet?
+
+The reverse() method reverses the current sorting order of the elements.
+"""
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+
+print('-------------------------')
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+
+thislist = ["Car", "Plane", "Bus"]
+mylist = list(thislist)
+print(mylist)
+
+print('-------------------------')
+
+#join (concatenate) lists
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
+
+
+print('-------------------------')
+print('-------------------------')
 print('-------------------------')
