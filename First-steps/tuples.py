@@ -30,6 +30,14 @@ thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
 
 print('-------------------------')
+
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
+
 print('-------------------------')
 print('-------------------------')
 print('-------------------------')
