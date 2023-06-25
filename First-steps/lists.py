@@ -337,6 +337,23 @@ thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
 
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+
 print('-------------------------')
+
+"""
+To sort descending, use the keyword argument reverse = True
+"""
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(reverse = True)
+print(thislist)
+
 print('-------------------------')
 print('-------------------------')
