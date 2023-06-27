@@ -242,8 +242,8 @@ print(set3)
 
 # The update() method inserts the items in set2 into set1:
 
-set1 = {"a", "b" , "c"}
-set2 = {1, 2, 3}
+set1 = {"d", "e" , "f"}
+set2 = {4, 5, 6}
 
 set1.update(set2)
 print(set1)
