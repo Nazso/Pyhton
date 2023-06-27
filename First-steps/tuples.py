@@ -106,7 +106,7 @@ create a new tuple with the item(s), and add it to the existing tuple
 """
 
 thistupleOne = ("apple", "banana", "cherry")
-y = ("orange",)
+y = ("orange",)         # a vessző azért kell, mert csak így hoz létre tuple-t! E nélkül csak egy elem lesz és nem működnek dolgok.
 thistupleOne += y
 
 print(thistupleOne)
