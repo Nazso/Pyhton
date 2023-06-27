@@ -65,3 +65,25 @@ It is also possible to use the tuple() constructor to make a tuple.
 
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
+
+
+print('---------------------------')
+
+"""
+Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+
+But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+"""
+
+x = ("apple", "banana", "cherry")   # ez egy tuple
+y = list(x)                         # konvertálom list-be
+y[1] = "kiwi"                       # módosítom
+x = tuple(y)                        # visszaalakítom tuple-é
+
+print(x)
+
+print('---------------------------')
+print('---------------------------')
+print('---------------------------')
+print('---------------------------')
+print('---------------------------')
