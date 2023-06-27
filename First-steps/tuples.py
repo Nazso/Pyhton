@@ -169,4 +169,24 @@ print(tropic)
 print(red)
 
 print('---------------------------')
+
+"""
+You can loop through the tuple items by using a for loop
+"""
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+
+"""
+You can also loop through the tuple items by referring to their index number.
+
+Use the range() and len() functions to create a suitable iterable.
+"""
+
+thistuple = ("monkey", "dog", "cat", "horse")
+for i in range(len(thistuple)):
+  print(thistuple[i])
+
 print('---------------------------')
