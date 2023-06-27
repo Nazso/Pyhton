@@ -51,3 +51,16 @@ print(y)
 print(z)
 
 print('-------------------------------')
+
+x = 2
+y = 1
+
+if (x < 4):
+    y = 5
+else:
+    y = 10
+
+z = x + y
+
+print(x, y)
+print(z)
