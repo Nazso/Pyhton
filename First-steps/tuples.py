@@ -83,6 +83,34 @@ x = tuple(y)                        # visszaalakítom tuple-é
 print(x)
 
 print('---------------------------')
+
+"""
+Since tuples are immutable, they do not have a built-in append() method,
+but there are other ways to add items to a tuple.
+
+1. Convert into a list: Just like the workaround for changing a tuple,
+you can convert it into a list, add your item(s), and convert it back into a tuple.
+"""
+
+thistuple = ("apple", "banana", "cherry")
+a = list(thistuple)
+a.append("orange")
+thistuple = tuple(a)
+
+print(thistuple)
+
+"""
+2. Add tuple to a tuple. You are allowed to add tuples to tuples,
+so if you want to add one item, (or many),
+create a new tuple with the item(s), and add it to the existing tuple
+"""
+
+thistupleOne = ("apple", "banana", "cherry")
+y = ("orange",)
+thistupleOne += y
+
+print(thistupleOne)
+
 print('---------------------------')
 print('---------------------------')
 print('---------------------------')
