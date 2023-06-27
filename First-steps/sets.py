@@ -101,5 +101,7 @@ thisset = {"apple", "banana", "cherry"}
 print("banana" in thisset)
 print("melone" in thisset)
 
+# Once a set is created, you cannot change its items, but you can add new items.
+
 print("--------------------------------------")
 print("--------------------------------------")
