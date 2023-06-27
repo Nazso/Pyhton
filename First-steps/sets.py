@@ -187,5 +187,24 @@ x = thisset.pop()
 print(x)
 print(thisset)
 
+"""
+Sets are unordered, so when using the pop() method,
+you do not know which item that gets removed.
+"""
+
+# The clear() method empties the set:
+
+thisset = {"apple", "banana", "cherry"}
+thisset.clear()
+
+print(thisset)
+
+# The del keyword will delete the set completely:
+
+thisset = {"apple", "banana", "cherry"}
+del thisset
+
+# print(thisset)
+
 print("--------------------------------------")
 print("--------------------------------------")
