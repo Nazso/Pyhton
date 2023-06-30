@@ -50,13 +50,16 @@ Example
 Duplicate values will overwrite existing values:
 """
 
-thisdict = {
+thisdictOne = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964,
-  "year": 2020
+  "year": 2020,
+  "color": "blue"
 }
-print(thisdict)
+print(thisdictOne)
+
+print(len(thisdictOne))
 
 
 print("--------------------------------------")
