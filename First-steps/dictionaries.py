@@ -58,9 +58,7 @@ thisdictOne = {
   "color": "blue"
 }
 print(thisdictOne)
-
 print(len(thisdictOne))
-
 
 print("--------------------------------------")
 print("--------------------------------------")
