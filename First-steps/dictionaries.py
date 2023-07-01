@@ -129,4 +129,21 @@ car["year"] = 2021
 print(z) #after the change
 
 print("--------------------------------------")
+
+"""
+Check if Key Exists
+To determine if a specified key is present in a dictionary use the in keyword:
+
+Example
+Check if "model" is present in the dictionary:
+"""
+
+thisdictTwo = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+if "model" in thisdictTwo:
+  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+
 print("--------------------------------------")
