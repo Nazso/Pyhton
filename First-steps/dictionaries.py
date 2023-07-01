@@ -88,6 +88,13 @@ car["color"] = "white"
 
 print(x) #after the change
 
+y = thisdict.values()
+print(y)
+
+car["year"] = 2020
+
+print(y) #after the change
+
 
 print("--------------------------------------")
 print("--------------------------------------")
