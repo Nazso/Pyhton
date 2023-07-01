@@ -88,13 +88,7 @@ car["color"] = "white"
 
 print(x) #after the change
 
-car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
-}
-
-y = thisdict.values()
+y = car.values()
 print(y)
 
 car["year"] = 2020
