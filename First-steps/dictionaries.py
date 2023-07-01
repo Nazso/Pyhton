@@ -144,6 +144,6 @@ thisdictTwo = {
   "year": 1964
 }
 if "model" in thisdictTwo:
-  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+  print("Yes, 'model' is one of the keys in the thisdictTwo dictionary")
 
 print("--------------------------------------")
