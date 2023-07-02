@@ -186,5 +186,41 @@ thisdictFour.update({"year": 2020})
 print(thisdictFour)
 
 print("--------------------------------------")
+
+"""
+Adding Items
+Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+
+Example
+
+"""
+thisdictFive = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdictFive["color"] = "blue"
+print(thisdictFive)
+
+"""
+Update Dictionary
+The update() method will update the dictionary with the items from a given argument.
+If the item does not exist, the item will be added.
+
+The argument must be a dictionary, or an iterable object with key:value pairs.
+
+Example
+Add a color item to the dictionary by using the update() method:
+
+"""
+
+thisdictSix = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdictSix.update({"color": "red"})
+print(thisdictSix)
+
 print("--------------------------------------")
 print("--------------------------------------")
