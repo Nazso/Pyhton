@@ -257,6 +257,17 @@ thisdictTen = {
 del thisdictTen["model"]
 print(thisdictTen)
 
+# The del keyword can also delete the dictionary completely:
+
+thisdictEl = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del thisdictEl
+# print(thisdictEl) #this will cause an error because "thisdict" no longer exists.
+
+
 print("--------------------------------------")
 print("--------------------------------------")
 print("--------------------------------------")
