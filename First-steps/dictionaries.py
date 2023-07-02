@@ -223,4 +223,15 @@ thisdictSix.update({"color": "red"})
 print(thisdictSix)
 
 print("--------------------------------------")
+
+# The pop() method removes the item with the specified key name:
+
+thisdictEight = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdictEight.pop("model")
+print(thisdictEight)
+
 print("--------------------------------------")
