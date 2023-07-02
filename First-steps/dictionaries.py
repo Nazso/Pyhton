@@ -281,4 +281,66 @@ thisdictTwelve.clear()
 print(thisdictTwelve, "This is an empty dictionary")
 
 print("--------------------------------------")
+
+"""
+Loop Through a Dictionary
+You can loop through a dictionary by using a for loop.
+
+When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
+
+Example
+Print all key names in the dictionary, one by one:
+
+"""
+print("----key names---")
+
+thisdictLoop = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "color": "red"
+}
+
+for x in thisdictLoop:
+  print(x)
+
+print("----values name---")
+"""
+Example
+Print all values in the dictionary, one by one:
+"""
+
+for y in thisdictLoop:
+  print(thisdictLoop[y])
+
+print("----values name---")
+
+"""
+Example
+You can also use the values() method to return values of a dictionary:
+"""
+
+for z in thisdictLoop.values():
+  print(z)
+
+
+print("----keys of dict---")
+"""
+Example
+You can use the keys() method to return the keys of a dictionary:
+"""
+
+for i in thisdict.keys():
+  print(i)
+
+
+print("----keys and valuies---")
+"""
+Example
+Loop through both keys and values, by using the items() method:
+"""
+
+for e, f in thisdict.items():
+  print(e, f)
+
 print("--------------------------------------")
