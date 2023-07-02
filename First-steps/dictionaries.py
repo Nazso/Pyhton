@@ -269,5 +269,16 @@ del thisdictEl
 
 
 print("--------------------------------------")
+
+# The clear() method empties the dictionary:
+
+thisdictTwelve = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdictTwelve.clear()
+print(thisdictTwelve, "This is an empty dictionary")
+
 print("--------------------------------------")
 print("--------------------------------------")
