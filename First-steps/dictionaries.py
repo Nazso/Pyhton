@@ -378,5 +378,5 @@ thisdict = {
   "model": "Mustang",
   "year": 1964
 }
-mydict = dict(thisdict)
-print(mydict)
+mydictTwo = dict(thisdict)
+print(mydictTwo)
