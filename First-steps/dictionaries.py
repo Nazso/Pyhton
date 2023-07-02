@@ -246,6 +246,17 @@ thisdictNeun.popitem()
 print(thisdictNeun)
 
 print("--------------------------------------")
+
+# The del keyword removes the item with the specified key name:
+
+thisdictTen = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del thisdictTen["model"]
+print(thisdictTen)
+
 print("--------------------------------------")
 print("--------------------------------------")
 print("--------------------------------------")
