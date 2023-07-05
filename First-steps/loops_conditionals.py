@@ -1,6 +1,8 @@
 
 
 
+print("------------Loops------------")
+
 """
 Python Loops
 Python has two primitive loop commands:
