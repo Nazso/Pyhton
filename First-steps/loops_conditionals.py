@@ -102,6 +102,22 @@ a = 2
 b = 330
 print("A") if a > b else print("B")
 
+# This technique is known as Ternary Operators, or Conditional Expressions.
+
+"""
+You can also have multiple else statements on the same line:
+
+Example
+One line if else statement, with 3 conditions:
+"""
+
+a = 330
+b = 330
+x = 2
+y = 3
+print("A") if a > b else print("=") if a == b else print("B")
+print("X") if x > y else print("=") if x == y else print("Y")
+
 print("---------------------------------------")
 print("---------------------------------------")
 
