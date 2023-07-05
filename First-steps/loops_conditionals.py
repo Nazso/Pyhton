@@ -20,6 +20,14 @@ if b > a:
   print("b is greater than a")
 
 
+"""
+Indentation
+Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
+
+If statement, without indentation (will raise an error)
+"""
+
+
 print("------------Loops------------")
 
 """
