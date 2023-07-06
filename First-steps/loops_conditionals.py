@@ -119,6 +119,88 @@ print("A") if a > b else print("=") if a == b else print("B")
 print("X") if x > y else print("=") if x == y else print("Y")
 
 print("---------------------------------------")
+
+print("---And---")
+"""
+And
+The and keyword is a logical operator, and is used to combine conditional statements:
+
+Example
+Test if a is greater than b, AND if c is greater than a:
+"""
+
+a = 200
+b = 330
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
+else:
+  print("One of the conditions is false")
+
+
+print("---Or---")
+"""
+Or
+The or keyword is a logical operator, and is used to combine conditional statements:
+
+Example
+Test if a is greater than b, OR if a is greater than c:
+"""
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
+else:
+  print("Every condition is false")
+
+
+print("---Not---")
+"""
+Not
+The not keyword is a logical operator, and is used to reverse the result of the conditional statement:
+
+Example
+Test if a is NOT greater than b:
+"""  
+
+a = 33
+b = 200
+if not a > b:
+  print("a is NOT greater than b")
+
+print("---------------------------------------")
+
+"""
+Nested If
+You can have if statements inside if statements, this is called nested if statements.
+
+Example
+"""
+x = 11
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+
+print("---------------------------------------")
+
+"""
+The pass Statement
+if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
+
+Example
+"""
+a = 33
+b = 200
+
+if b > a:
+  pass
+
 print("---------------------------------------")
 
 print("------------Loops------------")
@@ -136,7 +218,70 @@ Example
 Print i as long as i is less than 6:
 """
 
+print("-----while loop----")
+
 i = 1
 while i < 6:
   print(i)
   i += 1
+
+"""
+Note: remember to increment i, or else the loop will continue forever.
+
+The while loop requires relevant variables to be ready, in this example we need to define an indexing variable,
+i, which we set to 1.
+"""
+
+print("-----------------------------------------")
+
+"""
+The break Statement
+With the break statement we can stop the loop even if the while condition is true:
+
+Example
+Exit the loop when i is 3:
+"""
+
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+print("-----------------------------------------")
+
+"""
+The continue Statement
+With the continue statement we can stop the current iteration, and continue with the next:
+
+Example
+Continue to the next iteration if i is 3:
+"""
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3 or i == 5:
+    continue
+  print(i)
+
+print("-----------------------------------------")
+
+"""
+The else Statement
+With the else statement we can run a block of code once when the condition no longer is true:
+
+Example
+Print a message once the condition is false:
+"""
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+print("-----------------------------------------")
+print("-----------------------------------------")
