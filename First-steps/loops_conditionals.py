@@ -293,7 +293,7 @@ This is less like the for keyword in other programming languages, and works more
 
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
-ExampleGet your own Python Server
+Example
 Print each fruit in a fruit list:
 
 """
@@ -304,6 +304,15 @@ for x in fruits:
 
 # The for loop does not require an indexing variable to set beforehand.
 
+"""
+Looping Through a String
+Even strings are iterable objects, they contain a sequence of characters:
 
+Example
+Loop through the letters in the word "banana":
+"""
+
+for x in "banana":
+  print(x)
 
 print("-----------------------------------------")
