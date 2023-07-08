@@ -1,5 +1,7 @@
 """
-The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
+The word "polymorphism" means "many forms", and in programming
+it refers to methods/functions/operators with the same name
+that can be executed on many objects or classes.
 
 Function Polymorphism
 An example of a Python function that can be used on different objects is the len() function.
@@ -22,3 +24,9 @@ Example"""
 mytuple = ("apple", "banana", "cherry")
 
 print(len(mytuple))
+
+print("------------------------------------------")
+print("------------------------------------------")
+print("------------------------------------------")
+print("------------------------------------------")
+print("------------------------------------------")
