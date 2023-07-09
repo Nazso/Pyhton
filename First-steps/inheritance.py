@@ -163,10 +163,12 @@ Python also has a super() function that will make the child class inherit all th
 
 Example
 """
+# Add a property called graduationyear to the Student class:
 
 class Student(Person):
   def __init__(self, fname, lname):
     super().__init__(fname, lname)
+    self.graduationyear = 2019
 
 xx = Student("Matt", "LeBlanc")
 xx.printname()
@@ -175,6 +177,24 @@ xx.printname()
 # it will automatically inherit the methods and properties from its parent.
 
 print("--------------------------------------------")
+
+xy = Student("Peter", "Griffin")
+print(xy.graduationyear)
+
+# In the example below, the year 2019 should be a variable,
+# and passed into the Student class when creating student objects.
+# To do so, add another parameter in the __init__() function:
+
+class Student(Person):
+  def __init__(self, fname, lname, year):
+    super().__init__(fname, lname)
+    self.graduationyear = year
+
+x = Student("Meg", "Griffin", 2005)
+print(x.printname())
+print(x.graduationyear)
+
+
 print("--------------------------------------------")
 print("--------------------------------------------")
 print("--------------------------------------------")
