@@ -75,5 +75,11 @@ class Student(Person):
 z = Student("Luke", "Skywalker")
 z.printname()
 
+"""
+Now we have successfully added the __init__() function,
+and kept the inheritance of the parent class,
+and we are ready to add functionality in the __init__() function.
+"""
+
 print("--------------------------------------------")
 print("--------------------------------------------")
