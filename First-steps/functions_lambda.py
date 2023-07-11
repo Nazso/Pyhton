@@ -107,3 +107,7 @@ my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 # The phrase Keyword Arguments are often shortened to kwargs in Python documentations.
 
 print ("-------------------------------")
+print ("-------------------------------")
+print ("-------------------------------")
+print ("-------------------------------")
+print ("-------------------------------")
