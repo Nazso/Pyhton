@@ -19,6 +19,27 @@ def my_function():
 my_function()
 
 print ("-------------------------------")
+
+"""
+Arguments
+Information can be passed into functions as arguments.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
+
+Example
+"""
+def my_function(fname):
+  print("Griffin's Family is here:" + "  " + fname + " Griffin")
+
+my_function("Peter")
+my_function("Meg")
+my_function("Chris")
+my_function("Stewie")
+my_function("Brian")
+my_function("Lois")
+
 print ("-------------------------------")
 print ("-------------------------------")
 print ("-------------------------------")
