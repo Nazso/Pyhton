@@ -107,6 +107,24 @@ my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
 # The phrase Keyword Arguments are often shortened to kwargs in Python documentations.
 
 print ("-------------------------------")
+
+"""
+Default Parameter Value
+The following example shows how to use a default parameter value.
+
+If we call the function without argument, it uses the default value:
+
+Example
+"""
+
+def my_function(country = "Hungary"):
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
+
 print ("-------------------------------")
 print ("-------------------------------")
 print ("-------------------------------")
