@@ -145,5 +145,33 @@ fruits = ["apple", "banana", "cherry"]
 my_function(fruits)
 
 print ("-------------------------------")
+
+"""
+Return Values
+To let a function return a value, use the return statement:
+
+Example
+"""
+
+def my_function(x):
+  return 5 * x
+
+print(my_function(3))
+print(my_function(5))
+print(my_function(9))
+
 print ("-------------------------------")
+
+"""
+The pass Statement
+function definitions cannot be empty,
+but if you for some reason have a function definition with no content,
+put in the pass statement to avoid getting an error.
+
+Example
+"""
+
+def myfunction():
+  pass
+
 print ("-------------------------------")
