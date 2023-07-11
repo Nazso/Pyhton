@@ -14,4 +14,12 @@ Example
 def my_function():
   print("Hello from a function")
 
+# To call a function, use the function name followed by parenthesis
+
 my_function()
+
+print ("-------------------------------")
+print ("-------------------------------")
+print ("-------------------------------")
+print ("-------------------------------")
+print ("-------------------------------")
