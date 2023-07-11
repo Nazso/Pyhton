@@ -66,6 +66,8 @@ def my_function(fname, lname):
 
 my_function("Glenn", "Quagmire")
 
+# If you try to call the function with 1 or 3 arguments, you will get an error:
+
 print ("-------------------------------")
 print ("-------------------------------")
 print ("-------------------------------")
