@@ -86,5 +86,7 @@ def my_function(*kids):
 
 my_function("Chris", "Meg", "Stewie")
 
+# Arbitrary Arguments are often shortened to *args in Python documentations.
+
 print ("-------------------------------")
 print ("-------------------------------")
