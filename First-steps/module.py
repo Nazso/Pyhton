@@ -28,3 +28,38 @@ import mymodule
 
 mymodule.greeting("Mr Stevens")
 
+# Note: When using a function from a module, use the syntax: module_name.function_name.
+
+print("--------------------------------------------")
+
+"""
+Variables in Module
+The module can contain functions, as already described, but also variables of all types (arrays, dictionaries, objects etc):
+
+Example
+Save this code in the file mymodule.py
+
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
+
+Example
+Import the module named mymodule, and access the person1 dictionary:
+
+import mymodule
+"""
+
+a = mymodule.person1["age"]
+b = mymodule.person1["name"]
+c = mymodule.person1["country"]
+print(a)
+print(b)
+print(c)
+
+print("--------------------------------------------")
+print("--------------------------------------------")
+print("--------------------------------------------")
+print("--------------------------------------------")
+
