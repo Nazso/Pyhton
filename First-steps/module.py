@@ -127,5 +127,13 @@ The module named mymodule has one function and one dictionary:
 # Import only the person1 dictionary from the module:
 
 from mymodule import person1
+from mymodule import person2
 
+print (person1["name"])
 print (person1["age"])
+
+print("---")
+
+print (person2["name"])
+print (person2["age"])
+
