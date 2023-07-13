@@ -8,3 +8,9 @@ person1 = {
   "age": 36,
   "country": "Norway"
 }
+
+person2 = {
+  "name": "Peter",
+  "age": 42,
+  "country": "USA"
+}
