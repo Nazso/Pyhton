@@ -14,7 +14,7 @@ y = max(5, 10, 25)
 print(x)
 print(y)
 
-print("---------------------------------------")
+print("-------------------abs--------------------")
 
 """
 The abs() function returns the absolute (positive) value of the specified number:
@@ -26,7 +26,24 @@ x = abs(-7.25)
 
 print(x)
 
-print("---------------------------------------")
+print("--------------------pow-------------------")
+
+"""
+The pow(x, y) function returns the value of x to the power of y (xy).
+
+Example
+Return the value of 4 to the power of 3 (same as 4 * 4 * 4):
+
+"""
+
+x = pow(4, 3)
+y = pow(5, 10)
+z = pow(2, 8)
+
+print(x)
+print(y)
+print(z)
+
 print("---------------------------------------")
 print("---------------------------------------")
 print("---------------------------------------")
