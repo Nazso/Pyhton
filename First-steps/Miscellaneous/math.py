@@ -72,7 +72,7 @@ The math.ceil() method rounds a number upwards to its nearest integer, and the m
 
 Example
 """
-import math
+# import math
 
 x = math.ceil(1.4)
 y = math.floor(1.4)
@@ -81,4 +81,16 @@ print(x) # returns 2
 print(y) # returns 1
 
 print("---------------------------------------")
+
+"""
+The math.pi constant, returns the value of PI (3.14...):
+
+Example
+"""
+# import math
+
+x = math.pi
+
+print(x)
+
 print("---------------------------------------")
