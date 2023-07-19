@@ -119,6 +119,18 @@ Use the indent parameter to define the numbers of indents:
 
 print(json.dumps(x, indent=4))
 
+print("-------------------other indents-------------------")
+
+"""
+You can also define the separators, default value is (", ", ": "),
+which means using a comma and a space to separate each object, and a colon and a space to separate keys from values:
+
+Example
+Use the separators parameter to change the default separator:
+"""
+
+print(json.dumps(x, indent=4, separators=(". ", " = ")))
+
 print("---------------------------------------------")
 
 """
