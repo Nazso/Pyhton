@@ -60,15 +60,15 @@ print(type(x))
 
 print("-----------------------------------------")
 
-"""
-The strftime() Method
-The datetime object has a method for formatting date objects into readable strings.
+# """
+# The strftime() Method
+# The datetime object has a method for formatting date objects into readable strings.
 
-The method is called strftime(), and takes one parameter, format, to specify the format of the returned string:
+# The method is called strftime(), and takes one parameter, format, to specify the format of the returned string:
 
-Example
-Display the name of the month:
-"""
+# Example
+# Display the name of the month:
+# """
 
 import datetime
 
