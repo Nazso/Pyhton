@@ -365,6 +365,9 @@ txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.span())
 print(x.group())
+print(x.string)
+
+# Note: If there is no match, the value None will be returned, instead of the Match Object.
 
 print("---------------------------------------------------")
 print("---------------------------------------------------")
