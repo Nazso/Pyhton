@@ -277,6 +277,33 @@ x = re.search("Portugal", txt)
 print(x)
 
 print("---------------------------------------------------")
+
+"""
+The split() Function
+The split() function returns a list where the string has been split at each match:
+
+Example
+Split at each white-space character:
+"""
+
+txt = "The rain in Spain"
+x = re.split("\s", txt)
+print(x)
+
+"""
+You can control the number of occurrences by specifying the maxsplit parameter:
+
+Example
+Split the string only at the first occurrence:
+"""
+
+
+txt = "The rain in Spain"
+x = re.split("\s", txt, 1)
+y = re.split("\s", txt, 2)
+print(x)
+print(y)
+
 print("---------------------------------------------------")
 print("---------------------------------------------------")
 print("---------------------------------------------------")
