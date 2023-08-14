@@ -73,6 +73,32 @@ print(x)
 
 print("-----")
 
+txt = "heaio planet"
+
+#Search for a sequence that starts with "he", followed by two (any) characters, and an "o":
+
+x = re.findall("he..o", txt)
+print(x)
+
+print("-----")
+
+# txt = "hello planet"
+txt = "nohello planet"
+
+#Check if the string starts with 'hello':
+
+x = re.findall("^hello", txt)
+if x:
+  print("Yes, the string starts with 'hello'")
+else:
+  print("No match")
+
+print("-----")
+print("-----")
+print("-----")
+print("-----")
+print("-----")
+
 print("---------------------------------------------------")
 print("---------------------------------------------------")
 print("---------------------------------------------------")
