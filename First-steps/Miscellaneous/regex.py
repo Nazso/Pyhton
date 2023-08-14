@@ -94,6 +94,18 @@ else:
   print("No match")
 
 print("-----")
+
+# txt = "hello planet"
+txt = "hello planeto"
+
+#Check if the string ends with 'planet':
+
+x = re.findall("planet$", txt)
+if x:
+  print("Yes, the string ends with 'planet'")
+else:
+  print("No match")
+
 print("-----")
 print("-----")
 print("-----")
