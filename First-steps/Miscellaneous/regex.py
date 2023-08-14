@@ -134,7 +134,30 @@ x = re.findall("he.+o", txt)
 print(x)
 
 print("-----")
+
+# txt = "hello planet"
+# txt = "helo planet"
+txt = "heo planet"
+
+#Search for a sequence that starts with "he", followed by 0 or 1  (any) character, and an "o":
+
+x = re.findall("he.?o", txt)
+
+print(x)
+
+#This time we got no match, because there were not zero, not one, but two characters between "he" and the "o"
+
 print("-----")
+
+# txt = "hello planet"
+txt = "hellllo planet"
+
+#Search for a sequence that starts with "he", followed excactly 2 (any) characters, and an "o":
+
+# x = re.findall("he.{2}o", txt)
+x = re.findall("he.{4}o", txt)
+
+print(x)
 
 print("---------------------------------------------------")
 print("---------------------------------------------------")
