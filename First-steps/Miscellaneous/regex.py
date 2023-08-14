@@ -54,6 +54,25 @@ Character	    Description	Example	Try it
 """
 
 print("---------------------------------------------------")
+
+txt = "The rain in Spain"
+
+#Find all lower case characters alphabetically between "a" and "m":
+
+x = re.findall("[a-m]", txt)
+print(x)
+
+print("-----")
+
+txt = "That will be 59 dollars"
+
+#Find all digit characters:
+
+x = re.findall("\d", txt)
+print(x)
+
+print("-----")
+
 print("---------------------------------------------------")
 print("---------------------------------------------------")
 print("---------------------------------------------------")
