@@ -107,6 +107,19 @@ else:
   print("No match")
 
 print("-----")
+
+# txt = "hello planet"
+# txt = "helailo planet"
+# txt = "heo planet"
+# txt = "hellfob planet"
+txt = "haellfob planet"
+
+#Search for a sequence that starts with "he", followed by 0 or more  (any) characters, and an "o":
+
+x = re.findall("he.*o", txt)
+
+print(x)
+
 print("-----")
 print("-----")
 print("-----")
