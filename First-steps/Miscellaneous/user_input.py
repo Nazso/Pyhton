@@ -15,7 +15,7 @@ The following example asks for the username, and when you entered the username, 
 Python 3.6
 """
 
-username = input("Enter username:")
+#username = input("Enter username:")
 #print("Username is: " + username)
 
 # Python stops executing when it comes to the input() function, and continues when the user has given some input.
@@ -39,4 +39,14 @@ Add a placeholder where you want to display the price:
 
 price = 49
 txt = "The price is {} dollars"
+print(txt.format(price))
+
+"""
+You can add parameters inside the curly brackets to specify how to convert the value:
+
+Example
+Format the price to be displayed as a number with two decimals:
+
+"""
+txt = "The price is {:.2f} dollars"
 print(txt.format(price))
