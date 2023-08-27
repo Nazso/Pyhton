@@ -204,7 +204,8 @@ Example
 Create a file called "myfile.txt":
 """
 
-f = open("myfile.txt", "x")
+# f = open("myfileTwo.txt", "x")
+# print(f.read())
 
 # Result: a new empty file is created!
 
@@ -213,5 +214,15 @@ Example
 Create a new file if it does not exist:
 """
 
+f = open("myfileTwo.txt", "w")
+f.write("This is some content of the new file!")
+
+f = open("myfileTwo.txt", "r")
+print(f.read())
+
 f = open("myfile.txt", "w")
+f.write("This is some content of the new file!")
+
+f = open("myfile.txt", "r")
+print(f.read())
 
