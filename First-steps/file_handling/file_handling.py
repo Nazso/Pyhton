@@ -165,6 +165,11 @@ print("------------------")
 f = open("demofile2.txt", "r")
 print(f.read())
 
+print("------------other append--------------")
+f = open("demofile2.txt", "a")
+f.write("Just try to added new information to the file!")
+f.close()
+
 """
 Example
 Open the file "demofile3.txt" and overwrite the content:
