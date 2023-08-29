@@ -11,5 +11,6 @@ Matplotlib is mostly written in python, a few segments are written in C, Objecti
 
 import matplotlib
 
-
 print(matplotlib.__version__)
+
+
