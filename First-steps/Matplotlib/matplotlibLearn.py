@@ -80,3 +80,5 @@ ypoints = np.array([4, 10])
 
 plt.plot(xpoints, ypoints, 'o')
 plt.show()
+
+
