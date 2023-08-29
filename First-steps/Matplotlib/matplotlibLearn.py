@@ -23,7 +23,7 @@ Most of the Matplotlib utilities lies under the pyplot submodule, and are usuall
 import matplotlib.pyplot as plt
 Now the Pyplot package can be referred to as plt.
 
-ExampleGet your own Python Server
+Example
 Draw a line in a diagram from position (0,0) to position (6,250):
 """
 
