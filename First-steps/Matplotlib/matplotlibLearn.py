@@ -9,4 +9,7 @@ Matplotlib is open source and we can use it freely.
 Matplotlib is mostly written in python, a few segments are written in C, Objective-C and Javascript for Platform compatibility.
 """
 
+import matplotlib
 
+
+print(matplotlib.__version__)
