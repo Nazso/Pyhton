@@ -95,7 +95,6 @@ Draw a line in a diagram from position (1, 3) to (2, 8) then to (6, 1) and final
 # plt.plot(xpoints, ypoints)
 # plt.show()
 
-
 """
 Default X-Points
 If we do not specify the points on the x-axis, they will get the default values 0, 1, 2, 3 etc., depending on the length of the y-points.
