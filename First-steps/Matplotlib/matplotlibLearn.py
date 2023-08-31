@@ -6,7 +6,8 @@ Matplotlib was created by John D. Hunter.
 
 Matplotlib is open source and we can use it freely.
 
-Matplotlib is mostly written in python, a few segments are written in C, Objective-C and Javascript for Platform compatibility.
+Matplotlib is mostly written in python, a few segments are written in C,
+Objective-C and Javascript for Platform compatibility.
 """
 
 import matplotlib
@@ -97,7 +98,8 @@ Draw a line in a diagram from position (1, 3) to (2, 8) then to (6, 1) and final
 
 """
 Default X-Points
-If we do not specify the points on the x-axis, they will get the default values 0, 1, 2, 3 etc., depending on the length of the y-points.
+If we do not specify the points on the x-axis, they will get the default values 0, 1, 2, 3 etc.,
+depending on the length of the y-points.
 
 So, if we take the same example as above, and leave out the x-points, the diagram will look like this:
 
