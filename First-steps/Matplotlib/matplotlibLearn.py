@@ -186,8 +186,8 @@ ypoints = np.array([3, 8, 1, 10])
 # plt.plot(ypoints, 'o:r')
 # plt.plot(ypoints, 'D:g')
 # plt.plot(ypoints, '*:b')
-plt.plot(ypoints, '*-.b')
-plt.show()
+# plt.plot(ypoints, '*-.b')
+# plt.show()
 
 """
 The marker value can be anything from the Marker Reference above.
@@ -218,3 +218,18 @@ Color Syntax	Description
 'k'	Black	
 'w'	White
 """
+
+print("---------------------Marker size-------------------")
+
+"""
+Marker Size
+You can use the keyword argument markersize or the shorter version, ms to set the size of the markers:
+
+Example
+Set the size of the markers to 20:
+"""
+
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 'o', ms = 20)
+plt.show()
