@@ -134,8 +134,8 @@ ypoints = np.array([3, 8, 1, 10])
 # plt.plot(ypoints, marker = '*')
 # plt.plot(ypoints, marker = 's')
 # plt.plot(ypoints, marker = '4')
-plt.plot(ypoints, marker = 'D')
-plt.show()
+# plt.plot(ypoints, marker = 'D')
+# plt.show()
 
 """
 Marker Reference
@@ -167,3 +167,23 @@ Marker	Description
 '|'	Vline	
 '_'	Hline
 """
+
+print("----------------------fmt-----------------------")
+
+"""
+Format Strings fmt
+You can also use the shortcut string notation parameter to specify the marker.
+
+This parameter is also called fmt, and is written with this syntax:
+
+marker|line|color
+Example
+Mark each point with a circle:
+"""
+
+ypoints = np.array([3, 8, 1, 10])
+
+# plt.plot(ypoints, 'o:r')
+# plt.plot(ypoints, 'D:g')
+plt.plot(ypoints, '*:b')
+plt.show()
