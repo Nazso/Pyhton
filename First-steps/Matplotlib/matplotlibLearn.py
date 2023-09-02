@@ -252,10 +252,12 @@ ypoints = np.array([3, 8, 1, 10])
 # plt.plot(ypoints, marker = '*', ms = 20, mec = 'm')
 # plt.show()
 
-# You can use the keyword argument markerfacecolor or the shorter mfc to set the color inside the edge of the markers:
+"""
+You can use the keyword argument markerfacecolor or the shorter mfc to set the color inside the edge of the markers:
 
-# Example
-# Set the FACE color to red:
+Example
+Set the FACE color to red:
+"""
 
 # plt.plot(ypoints, marker = 'o', ms = 20, mfc = 'r')
 # plt.plot(ypoints, marker = '*', ms = 20, mfc = 'm')
