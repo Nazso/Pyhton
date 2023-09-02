@@ -109,9 +109,11 @@ Example
 Plotting without x-points:
 """
 
-xpoints = np.array([2, 4, 6, 8, 10, 12])
-ypoints = np.array([3, 8, 1, 10, 5, 7])
+# xpoints = np.array([2, 4, 6, 8, 10, 12])
+# ypoints = np.array([3, 8, 1, 10, 5, 7])
 
-plt.plot(xpoints, ypoints)
-plt.show()
+# plt.plot(xpoints, ypoints)
+# plt.show()
+
+print("------------------------Markers-------------------------")
 
