@@ -231,5 +231,7 @@ Set the size of the markers to 20:
 
 ypoints = np.array([3, 8, 1, 10])
 
-plt.plot(ypoints, marker = 'o', ms = 20)
+# plt.plot(ypoints, marker = 'o', ms = 20)
+# plt.plot(ypoints, marker = 'D', ms = 15)
+plt.plot(ypoints, marker = '*', ms = 30)
 plt.show()
