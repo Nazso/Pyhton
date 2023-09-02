@@ -117,3 +117,19 @@ Plotting without x-points:
 
 print("------------------------Markers-------------------------")
 
+"""
+Markers
+You can use the keyword argument marker to emphasize each point with a specified marker:
+
+ExampleGet your own Python Server
+Mark each point with a circle:
+"""
+
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+ypoints = np.array([3, 8, 1, 10])
+
+# plt.plot(ypoints, marker = 'o')
+plt.plot(ypoints, marker = '*')
+plt.show()
