@@ -233,5 +233,21 @@ ypoints = np.array([3, 8, 1, 10])
 
 # plt.plot(ypoints, marker = 'o', ms = 20)
 # plt.plot(ypoints, marker = 'D', ms = 15)
-plt.plot(ypoints, marker = '*', ms = 30)
+# plt.plot(ypoints, marker = '*', ms = 30)
+# plt.show()
+
+print("--------------------marker color--------------------")
+
+"""
+Marker Color
+You can use the keyword argument markeredgecolor or the shorter mec to set the color of the edge of the markers:
+
+Example
+Set the EDGE color to red:
+"""
+
+ypoints = np.array([3, 8, 1, 10])
+
+# plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r')
+plt.plot(ypoints, marker = '*', ms = 20, mec = 'm')
 plt.show()
