@@ -185,5 +185,19 @@ ypoints = np.array([3, 8, 1, 10])
 
 # plt.plot(ypoints, 'o:r')
 # plt.plot(ypoints, 'D:g')
-plt.plot(ypoints, '*:b')
+# plt.plot(ypoints, '*:b')
+plt.plot(ypoints, '*-.b')
 plt.show()
+
+"""
+The marker value can be anything from the Marker Reference above.
+
+The line value can be one of the following:
+
+Line Reference
+Line Syntax	Description
+'-'	    Solid line	
+':'	    Dotted line	
+'--'	Dashed line	
+'-.'	Dashed/dotted line
+"""
