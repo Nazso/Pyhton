@@ -201,3 +201,20 @@ Line Syntax	Description
 '--'	Dashed line	
 '-.'	Dashed/dotted line
 """
+
+# Note: If you leave out the line value in the fmt parameter, no line will be plotted.
+
+"""
+The short color value can be one of the following:
+
+Color Reference
+Color Syntax	Description
+'r'	Red	
+'g'	Green	
+'b'	Blue	
+'c'	Cyan	
+'m'	Magenta	
+'y'	Yellow	
+'k'	Black	
+'w'	White
+"""
