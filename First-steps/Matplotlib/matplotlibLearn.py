@@ -354,10 +354,37 @@ Example
 Draw two lines by specifiyng the x- and y-point values for both lines:
 """
 
-x1 = np.array([0, 1, 2, 3])
-y1 = np.array([3, 8, 1, 10])
-x2 = np.array([0, 1, 2, 3])
-y2 = np.array([6, 2, 7, 11])
+# x1 = np.array([0, 1, 2, 3])
+# y1 = np.array([3, 8, 1, 10])
+# x2 = np.array([0, 1, 2, 3])
+# y2 = np.array([6, 2, 7, 11])
 
-plt.plot(x1, y1, x2, y2)
+# plt.plot(x1, y1, x2, y2)
+# plt.show()
+
+print("--------------------Labels and Title--------------------")
+
+"""
+Create Labels for a Plot
+With Pyplot, you can use the xlabel() and ylabel() functions to set a label for the x- and y-axis.
+
+Example
+Add labels to the x- and y-axis:
+"""
+
+x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
+y = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
+
+plt.plot(x, y)
+
+plt.xlabel("Average Pulse")
+plt.ylabel("Calorie Burnage")
+
 plt.show()
+
+print("--------------------linestyle--------------------")
+print("--------------------linestyle--------------------")
+print("--------------------linestyle--------------------")
+print("--------------------linestyle--------------------")
+print("--------------------linestyle--------------------")
+print("--------------------linestyle--------------------")
