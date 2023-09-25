@@ -286,6 +286,18 @@ dotted can be written as :.
 dashed can be written as --.
 """
 
-plt.plot(ypoints, ls = ':')
-plt.plot(ypoints, ls = '--')
-plt.show()
+# plt.plot(ypoints, ls = ':')
+# plt.plot(ypoints, ls = '--')
+# plt.show()
+
+"""
+Line Styles
+You can choose any of these styles:
+
+Style	            Or
+'solid' (default)	'-'	
+'dotted'	        ':'	
+'dashed'	        '--'	
+'dashdot'	        '-.'	
+'None'	            '' or ' '
+"""
