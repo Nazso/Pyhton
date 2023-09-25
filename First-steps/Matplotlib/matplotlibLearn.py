@@ -324,5 +324,21 @@ You can use the keyword argument linewidth or the shorter lw to change the width
 The value is a floating number, in points:
 """
 
-plt.plot(ypoints, linewidth = '20.5')
+# plt.plot(ypoints, linewidth = '20.5')
+# plt.show()
+
+"""
+Multiple Lines
+You can plot as many lines as you like by simply adding more plt.plot() functions:
+
+Example
+Draw two lines by specifying a plt.plot() function for each line:
+"""
+
+y1 = np.array([3, 8, 1, 10])
+y2 = np.array([6, 2, 7, 11])
+
+plt.plot(y1)
+plt.plot(y2)
+
 plt.show()
