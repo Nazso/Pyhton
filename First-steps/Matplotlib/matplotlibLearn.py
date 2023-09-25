@@ -314,5 +314,15 @@ ypoints = np.array([3, 8, 1, 10])
 
 # plt.plot(ypoints, color = 'r')
 # plt.plot(ypoints, c = '#4CAF50')
-plt.plot(ypoints, c = 'hotpink')
+# plt.plot(ypoints, c = 'hotpink')
+# plt.show()
+
+"""
+Line Width
+You can use the keyword argument linewidth or the shorter lw to change the width of the line.
+
+The value is a floating number, in points:
+"""
+
+plt.plot(ypoints, linewidth = '20.5')
 plt.show()
