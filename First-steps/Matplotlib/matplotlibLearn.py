@@ -272,6 +272,20 @@ print("--------------------linestyle--------------------")
 
 ypoints = np.array([3, 2, 5, 10])
 
-plt.plot(ypoints, linestyle = 'dotted')
-plt.plot(ypoints, linestyle = 'dashed')
+# plt.plot(ypoints, linestyle = 'dotted')
+# plt.plot(ypoints, linestyle = 'dashed')
+# plt.show()
+
+"""
+The line style can be written in a shorter syntax:
+
+linestyle can be written as ls.
+
+dotted can be written as :.
+
+dashed can be written as --.
+"""
+
+plt.plot(ypoints, ls = ':')
+plt.plot(ypoints, ls = '--')
 plt.show()
