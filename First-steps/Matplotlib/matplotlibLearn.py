@@ -262,5 +262,15 @@ Set the FACE color to red:
 # plt.plot(ypoints, marker = '*', ms = 20, mfc = 'm')
 # plt.plot(ypoints, marker = '*', ms = 20, mec = 'g', mfc = 'm')
 # plt.plot(ypoints, marker = '*', ms = 20, mec = 'y', mfc = 'm')
-plt.plot(ypoints, marker = 'o', ms = 20, mec = '#4CAF50', mfc = '#FF1111')
+# plt.plot(ypoints, marker = 'o', ms = 20, mec = '#4CAF50', mfc = '#FF1111')
+# plt.show()
+
+
+print("--------------------linestyle--------------------")
+
+# You can use the keyword argument linestyle, or shorter ls, to change the style of the plotted line:
+
+ypoints = np.array([3, 2, 5, 10])
+
+plt.plot(ypoints, linestyle = 'dotted')
 plt.show()
