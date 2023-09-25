@@ -312,6 +312,7 @@ Set the line color to red:
 
 ypoints = np.array([3, 8, 1, 10])
 
-plt.plot(ypoints, color = 'r')
-plt.plot(ypoints, c = '#4CAF50')
+# plt.plot(ypoints, color = 'r')
+# plt.plot(ypoints, c = '#4CAF50')
+plt.plot(ypoints, c = 'hotpink')
 plt.show()
