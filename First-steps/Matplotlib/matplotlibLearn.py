@@ -301,3 +301,17 @@ Style	            Or
 'dashdot'	        '-.'	
 'None'	            '' or ' '
 """
+
+"""
+Line Color
+You can use the keyword argument color or the shorter c to set the color of the line:
+
+Example
+Set the line color to red:
+"""
+
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, color = 'r')
+plt.plot(ypoints, c = '#4CAF50')
+plt.show()
