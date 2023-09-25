@@ -273,4 +273,5 @@ print("--------------------linestyle--------------------")
 ypoints = np.array([3, 2, 5, 10])
 
 plt.plot(ypoints, linestyle = 'dotted')
+plt.plot(ypoints, linestyle = 'dashed')
 plt.show()
