@@ -129,9 +129,9 @@ x = 1
 y = 35656222554887711
 z = -3255522
 
-print(type(x))
-print(type(y))
-print(type(z))
+# print(type(x))
+# print(type(y))
+# print(type(z))
 
 # x = 1.10
 # y = 1.0
@@ -145,16 +145,73 @@ x = 35e3
 y = 12E4
 z = -87.7e100
 
-print(type(x))
-print(type(y))
-print(type(z))
+# print(type(x))
+# print(type(y))
+# print(type(z))
 
 x = 3+5j
 y = 5j
 z = -5j
 
-print(type(x))
-print(type(y))
-print(type(z))
+# print(type(x))
+# print(type(y))
+# print(type(z))
 
 print('-------------------------------')
+
+my_set = {1, 2, 3, 4, 5}
+my_set.add(6)
+my_set.update({7, 8})
+
+print(my_set)
+
+
+print('--------------------------------------')
+
+my_string = "Hello World"
+result = my_string[::-1]
+print(result)
+
+print('--------------------------------------')
+
+
+my_tuple = (1, 2, 3)
+a, *b, c = my_tuple
+print(b)
+
+print('--------------------------------------')
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+# result = my_dict.get('d', 4)
+# print(result)
+# print(my_dict)
+
+print('--------------------------------------')
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+# result = x == y
+# print(result)
+
+print('--------------------------------------')
+
+x = 10
+y = 5
+
+# result = (x > y) and (x < 20) or (y < 0)
+# print(result)
+
+print('--------------------------------------')
+
+# s = "hello"
+# result = "".join([char * 2 for char in s])
+# print(result)
+
+print('--------------------------------------')
+
+s = "apple orange banana cherry grape"
+result = s.split(maxsplit=2)
+print(result)
+
+
+print('--------------------------------------')
